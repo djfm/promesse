@@ -17,7 +17,7 @@ I've written it because I love using promises in JS and I like to know how the t
 There are [many implementations out there](https://promisesaplus.com/implementations), I wanted mine to be very small and written as much as possible in functional programming style.
 
 I'm rather happy about the result:
-  - [100 lines of code](lib/promise.js) (*no comments, comments are for the weak*), so probably one of the shortest implementations out there
+  - [98 lines of code](lib/promise.js) (*no comments, comments are for the weak*), so probably one of the shortest implementations out there
   - looks a bit like Haskell :)
 
 It's been a really enriching experience, now I know a lot more about
