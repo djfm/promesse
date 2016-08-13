@@ -30,3 +30,15 @@ npm test
 ```
 
 There are two test suites, the one from [Promises/A+](https://github.com/promises-aplus/promises-tests), and the one I wrote to help me when I did not understand the feedback from the official tests.
+
+## Making it Smaller
+
+Now that the library is working and tested, I want to make it smaller in terms
+of number of lines of code.
+
+The rules are:
+  - lines must not exceed 80 columns
+  - block declarations (*by that I mean a declaration that takes more than one line or a succession of one line declarations*) and top level declarations are
+    followed with one blank line at least
+  - more subjectively: the code needs to remain easy
+    to read
