@@ -1,0 +1,30 @@
+{
+  "name": "aplus-promesse",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/djfm/promesse.git"
+  },
+  "keywords": ["promises-aplus", "promise"],
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "description": "A functional style Promises/A+ implementation that aims to be concise and clean.",
+  "main": "lib/promise.js",
+  "scripts": {
+    "test:local": "mocha --require test/harness",
+    "test:local:watch": "npm run test:local -- -w",
+    "test:promise": "promises-aplus-tests lib/promise",
+    "test": "npm run test:local && npm run test:promise"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.11.1",
+    "mocha": "^2.5.3",
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
