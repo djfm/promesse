@@ -25,6 +25,11 @@ the subtleties of promises than any documentation would tell.
 
 Besides, working against an existing **huge** test suite is a cool programming exercise.
 
+Obviously this is a toy project, but I'd be interested in having feedback on:
+  - does the [code](lib/promise.js) make sense to you? or did I just write some "write-only" software?
+  - can you see ways to make it smaller without making it too obscure / unreadable?
+  - can you see other functional patterns that I could use to make the code more concise?
+
 ## Installing
 
 This is probably not very useful since promises are standard, but, if for some reason you need to:
