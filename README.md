@@ -7,10 +7,23 @@
          title="Promises/A+ 1.0 compliant" align="right" />
 </a>
 
-*Promesse* is a [Promises/A+](https://github.com/promises-aplus/promises-tests) compliant Promise library.
+*Promesse* is a [Promises/A+](https://github.com/promises-aplus/promises-tests) compliant Promise library. This implementation passes all the tests
+of the standard test suite.
 
-I've written it because I love promises in JS and I like to know how the tools I use work.
-Besides, it's a nice exercise to work against an existing **huge** test suite.
+## Why oh why?
+
+I've written it because I love using promises in JS and I like to know how the tools I use work.
+
+There are [many implementations out there](https://promisesaplus.com/implementations), I wanted mine to be very small and written as much as possible in functional programming style.
+
+I'm rather happy about the result:
+  - 100 lines (no comments), so probably one of the shortest implementations out there
+  - looks a bit like Haskell :)
+
+It's been a really enriching experience, now I know a lot more about
+the subtleties of promises than any documentation would tell.
+
+Besides, working against an existing **huge** test suite is a cool programming exercise.
 
 ## Installing
 
