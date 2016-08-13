@@ -10,14 +10,14 @@
 *Promesse* is a [Promises/A+](https://github.com/promises-aplus/promises-tests) compliant Promise library. This implementation passes all the tests
 of the standard test suite.
 
-## Why oh why?
+## Why oh Why?
 
 I've written it because I love using promises in JS and I like to know how the tools I use work.
 
 There are [many implementations out there](https://promisesaplus.com/implementations), I wanted mine to be very small and written as much as possible in functional programming style.
 
 I'm rather happy about the result:
-  - 100 lines of code (no comments, comments are for the weak), so probably one of the shortest implementations out there
+  - 100 lines of code (*no comments, comments are for the weak*), so probably one of the shortest implementations out there
   - looks a bit like Haskell :)
 
 It's been a really enriching experience, now I know a lot more about
